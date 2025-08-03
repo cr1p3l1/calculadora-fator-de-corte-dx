@@ -59,7 +59,7 @@ Ao selecionar a marca da câmera (Nikon ou Canon), o sistema aplica automaticame
 
 ## ✍️ Autor
 
-Projeto desenvolvido por **Cristiano Lima** com apoio do ChatGPT.
+Projeto desenvolvido por **Cristiano Lima**.
 
 ---
 
