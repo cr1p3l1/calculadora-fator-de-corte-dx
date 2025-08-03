@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 300px;
+  background: white;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007BFF;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+#limpar {
+  background: orangered;
+  color: #ffffff;
+  border: 1px solid #ced4da;
+}
+#limpar:hover {
+  background: red;
+  color: #ffffff;
+  border: 1px solid #ced4da;
+}
+.resultado {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.imagem-camera {
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.imagem-camera img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.linha-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.linha-form input[type="number"] {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.linha-form button {
+  width: auto;
+  white-space: nowrap;
+}

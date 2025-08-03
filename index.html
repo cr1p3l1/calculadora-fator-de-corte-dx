@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculadora Fator de Corte</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora Fator de Corte DX</h1>
+
+    <form id="formulario">
+      <div class="selecao-camera">
+        <div class="campo-marca">
+          <label for="marca">Marca da Câmera:</label>
+          <select id="marca" required>
+            <option value="">Selecione o modelo</option>
+            <option value="nikon">Nikon D3100 (APS-C 1.5x)</option>
+            <option value="canon">Canon EOS Rebel T3i (APS-C 1.6x)</option>
+          </select>
+        </div>
+
+        <div class="imagem-camera" id="imagemCamera">
+          <!-- Imagem será inserida via JS -->
+        </div>
+      </div>
+
+      <label for="distanciaFocal">Distância focal da lente (em mm):</label>
+<div class="linha-form">
+  <input type="number" id="distanciaFocal" placeholder="Ex: 35" required />
+  <button type="submit">Calcular</button>
+  <button type="button" id="limpar">Limpar</button>
+</div>
+
+    </form>
+
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
