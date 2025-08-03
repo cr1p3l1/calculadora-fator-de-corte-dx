@@ -26,17 +26,6 @@ Ao selecionar a marca da câmera (Nikon ou Canon), o sistema aplica automaticame
 
 ---
 
-## 📁 Estrutura de Arquivos
-
-/
-├── index.html # Página principal da aplicação
-├── style.css # Estilos CSS organizados
-└── imagens/
-├── nikon-d3100.jpg
-└── canon-t3i.jpg
-
----
-
 ## 📸 Crop Factor
 
 | Marca  | Modelo      | Crop Factor |
